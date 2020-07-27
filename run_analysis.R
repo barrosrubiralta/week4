@@ -1,4 +1,4 @@
-
+source(dplyr)
 #features
 features<-read.table("C:\\Users\\barro\\FX\\getdata_projectfiles_UCI HAR Dataset\\UCI HAR Dataset\\features.txt",header = FALSE)
 activitys_names<-read.table("C:\\Users\\barro\\FX\\getdata_projectfiles_UCI HAR Dataset\\UCI HAR Dataset\\activity_labels.txt", header = FALSE)
