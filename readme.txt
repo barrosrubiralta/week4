@@ -6,6 +6,39 @@ readme.txt
 codebook.txt 
 run_analysis.R
 
+The Original Files are the following:
+activity_labels.txt
+features.txt
+train directory:
+subject_train.txt
+X_train.txt
+y_train.txt
+Inertial Signals:
+boty_acc_x_train.txt
+boty_acc_y_train.txt
+boty_acc_z_train.txt
+boty_gyro_x_trian.txt
+boty_gyro_y_trian.txt
+boty_gyro_z_trian.txt
+total_acc_x_train.txt
+total_acc_y_train.txt
+total_acc_z_train.txt
+test directory:
+subject_test.txt
+X_test.txt
+y_test.txt
+Inertial Signals:
+boty_acc_x_test.txt
+boty_acc_y_test.txt
+boty_acc_z_test.txt
+boty_gyro_x_test.txt
+boty_gyro_y_test.txt
+boty_gyro_z_test.txt
+total_acc_x_test.txt
+total_acc_y_test.txt
+total_acc_z_test.txt
+
+
 run_analysis.R:
 This file loads the activity_names and features into R. Then asigns the activity_name to the designated number and the featrue name to the designated variable.
 Then it merges both train and test datasets. Looks for the mean and stddev within the features. Finally it makes a tidydata set that's easy to reed.
